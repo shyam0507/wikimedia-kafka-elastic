@@ -1,0 +1,24 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "ts-node-dev src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.2.1",
+    "eventsource": "^2.0.2",
+    "kafkajs": "^2.1.0",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/eventsource": "^1.1.9",
+    "@types/node": "^18.0.3",
+    "ts-node-dev": "^1.1.8"
+  }
+}
